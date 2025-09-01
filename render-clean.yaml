@@ -1,0 +1,12 @@
+# Render Blueprint - Minimal deployment
+services:
+  - type: web
+    name: retail-analytics-backend
+    env: python
+    plan: free
+    region: oregon  
+    buildCommand: cd backend && pip install -r requirements.txt
+    startCommand: cd backend && python simple_app.py
+    envVars:
+      - key: ENVIRONMENT
+        value: production

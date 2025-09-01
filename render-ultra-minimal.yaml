@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: retail-backend-minimal
+    env: python
+    buildCommand: cd backend && pip install fastapi uvicorn
+    startCommand: cd backend && python simple_app.py

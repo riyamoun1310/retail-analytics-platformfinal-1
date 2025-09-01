@@ -1,0 +1,34 @@
+# Backend Dependencies
+fastapi>=0.104.1,<0.105.0
+uvicorn[standard]>=0.24.0,<0.25.0
+gunicorn>=21.2.0,<21.3.0
+pydantic>=2.10.1,<2.11.0
+pydantic-settings>=2.10.1,<2.11.0
+sqlalchemy>=2.0.23,<2.1.0
+psycopg2-binary>=2.9.9,<2.10.0
+alembic>=1.13.0,<1.14.0
+email-validator>=2.1.0,<2.2.0
+
+# Machine Learning
+scikit-learn>=1.3.2,<1.4.0
+pandas>=2.1.4,<2.2.0
+numpy>=1.25.2,<1.26.0
+joblib>=1.3.2,<1.4.0
+
+# GenAI
+httpx>=0.25.2,<0.26.0
+transformers>=4.36.2,<4.37.0
+torch>=2.1.1,<2.2.0
+
+# Data Processing
+plotly>=5.17.0,<5.18.0
+seaborn>=0.13.0,<0.14.0
+matplotlib>=3.8.2,<3.9.0
+
+# API and Security
+python-jose[cryptography]>=3.3.0,<3.4.0
+passlib[bcrypt]>=1.7.4,<1.8.0
+python-multipart>=0.0.6,<0.1.0
+python-dotenv>=1.0.0,<1.1.0
+
+

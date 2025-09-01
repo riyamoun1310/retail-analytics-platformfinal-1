@@ -1,0 +1,5 @@
+# Additional utilities
+faker>=20.1.0,<20.2.0
+
+# Testing
+pytest>=7.4.3,<7.5.0
